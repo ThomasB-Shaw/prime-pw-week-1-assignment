@@ -1,11 +1,56 @@
 /* Give your page a fun background color */
-
+body {
+  background-color: #350B34;
+  text-align: center;
+}
 /* Make the header and footer a different color from the background */
-
+header {
+color: #420540;
+background-color: #FEF4FE;
+font-size: 40px;
+border-radius: 5px;
+}
+footer {
+color: teal;
+background-color: #FEF4FE;
+border-radius: 5px;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+text-align: center;
+}
 /* Make your p tag a different color and italic */
-
+p {
+color: #420540;
+font-style: italic;
+font-size: 35px;
+}
 /* Put a border around your image */
-
+.photo {
+  width:300px;
+  height:400px;
+  border:5px;
+  border-style: inset;
+  border-color: #FEF4FE;
+}
 /* Change the font-family of your list */
+li{
+ font-family: fantasy;
+ color: #FEF4FE;
+ /* Added shadow to help give dotted info pop */
+ text-shadow: -2px 2px 0 #350B34;
+ font-size: 20px;
+ text-align: center;
+}
+ul {
+  list-style-position: inside;
+}
+/* Card Foramt below, to organize things into a 'Business Card Format' */
+.card {
+margin-top: 75px;
+margin-left: 20px;
+margin-right: 20px;
+padding: 5px 10px 10px 5px;
+border-radius: 15px;
+background-color: #9E0D99;
+}
