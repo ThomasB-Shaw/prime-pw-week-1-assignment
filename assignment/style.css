@@ -47,9 +47,10 @@ ul {
 }
 /* Card Foramt below, to organize things into a 'Business Card Format' */
 .card {
-margin-top: 75px;
+margin-top: 30px;
 margin-left: 20px;
 margin-right: 20px;
+margin-bottom: 30px;
 padding: 5px 10px 10px 5px;
 border-radius: 15px;
 background-color: #9E0D99;
