@@ -17,6 +17,6 @@
 # 8 - Why would you run the command 'git status'?
     To see what files are being tracked and untracked
 # 9 - What does the command 'git add .' do?
-    It would stage a commit, changing changes from uncommitted to committed
+    Adds your changes to the staging area to then be committed with ‘git commit’
 # 10 - What is the command to push your committed changes to your repo on GitHub?
     git push -u origin master
